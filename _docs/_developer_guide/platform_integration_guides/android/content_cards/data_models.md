@@ -21,11 +21,11 @@ The [Base Card][29] model provides foundational behavior for all cards.
 |`getViewed()` | Returns a boolean reflects if the card is read or unread by the user.|
 |`getExtras()` | Returns a map of key-value extras for this card.|
 |`getCreated()`  | Returns the unix timestamp of the card’s creation time from Braze.|
-|`getIsPinned` | Returns a boolean that reflects whether the card is pinned.|
+|`getIsPinned` | Returns a boolean that reflects whether the card is pinned, as configured in the Braze dashboard.|
 |`getOpenUriInWebView()`  | Returns a boolean that reflects whether Uris for this card should be opened <br> in Braze's WebView or not.|
 |`getExpiredAt()` | Gets the expiration date of the card.|
 |`getIsRemoved()` | Returns a boolean that reflects whether the end user has dismissed this card.|
-|`getIsDismissible()`  | Returns a boolean that reflects whether the card is pinned.|
+|`getIsDismissible()`  | Returns a boolean that reflects whether the card can be dismissed by the user.|
 
 ### Banner Image Card {#banner-image-card-for-android}
 [Banner Image Cards][30] are clickable full-sized images. In addition to the base card properties:
